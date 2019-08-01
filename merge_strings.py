@@ -1,5 +1,5 @@
 def merge(first_str, second_str):
-    #
+
     # IMPORTANT:
     # 1. Write your solution in this function
     # 2. Do not make changes to the function signature
