@@ -21,6 +21,6 @@ class MergeStringsTest(unittest.TestCase):
     def test_merge_strings(self, first_string, second_string, expected_result):
         self.longMessage = True
         actual = merge(first_string, second_string)
-        message = 'For first-string {0}, second-string {1} expected result = {2}, and actual value = {3}'.format(
+        message = 'For input [{0}, {1}] expected value = {2}, and actual value = {3}'.format(
             first_string, second_string, expected_result, actual)
         self.assertEqual(expected_result, actual, message)
